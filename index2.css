@@ -1901,3 +1901,22 @@ background-image: url("./image/ngay-dau.jpg");
         background-position: center;
     }
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) { /* iPad Landscape & Smaller Screens */
+    .curtainn {
+        width: 50%;
+    }
+    .curtain-leftt {
+        width: 77%;
+    margin-top: -146px;
+    left: -15px;
+    height: 130%;
+    }
+    .curtain-rightt {
+       width: 77%;
+        margin-top: -146px;
+        height: 130%;
+        right: -12px;
+    }
+}
